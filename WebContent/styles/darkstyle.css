@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+body{
+	background-color : #35383F;
+}
+a:link{
+	color : gray; 
+}
+a:visited{
+	color : gray;
+}
+a:hover{
+	color : white;
+}
+#writeForm{
+	width : 500px;
+	border: 2px solid black;
+	margin : auto;
+	padding : 10px
+}
+#listForm{
+	width : 500px;
+	border : 2px solid black;
+	margin : auto;
+	padding : 10px
+}
+#articleForm{
+	width : 500px;
+	border : 2px solid black;
+	margin : auto;
+	padding : 10px;
+}
+#modifyForm{
+	width : 500px;
+	border : 2px solid black;
+	margin : auto;
+	padding : 10px
+}
+#passForm{
+	width : 400px;
+	margin : auto;
+	border : 2px solid black;
+	color : gray;
+	padding : 10px
+}
+#replyshowForm{
+	width : 500px;
+	margin : auto;
+	paading : 10px;
+	border : 2px solid black;
+}
+#replywriteForm{
+	text-align : center;
+	width : 500px;
+	margin : auto;
+	margin-top : 10px;
+	border : 2px solid black;
+	background : #25282F;
+	color : gray;
+}
+
+#Reply_NAME{
+	width : 100px;
+}
+#Reply_PASS{
+	width : 100px;
+}
+#Reply_CONTENT{
+	width : 400px;
+	height : 30px;
+}
+
+
+h2{
+	text-align : center;	
+	color : gray;
+}
+table{
+	margin : auto;
+	width : 450px;	
+}
+#listtable{	
+	border-collapse : collapse;
+	color : gray;
+}
+#listtable td{
+	border : 1px solid white;
+	margin : 0px;
+}
+#listtable .articles:nth-child(even){
+	background : #26282F;
+}
+#listtable .articles:nth-child(odd){
+	background : #2F3137;
+}
+#replyshowtable{
+	margin-top : 10px;
+	margin-bottom : 10px;
+	padding : 10px;
+	background : #25282F;
+	border-collapse : collapse;
+	color : white;
+}
+#replyshowtable td{
+	border-bottom : 1px solid black
+}
+#replywritetable{
+	color : gray;
+	background : #35383F;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+#replywritetable input{
+	 color : white;
+	 background:#26282F;
+	 border :0
+}
+#replywritetable #Reply_CONTENT{
+	 color : white;
+	 background:#26282F;
+	 border :0	
+}
+#tr_top{
+	background : #484d57;
+	text-align : center;
+	color : white;
+}
+.td_left{
+	width : 150px;
+	font-weight : bold;
+	color : white;
+	background : #484d57;
+}
+.td_right {
+	width : 300px;
+	background : #484d57;
+}
+.td_right > input{
+	background : #26282F;
+	color : white;
+	border : 0;
+}
+#basicInfoArea{
+	background : #25282F;
+	text-align : center;
+	padding : 10px;
+	color : gray;
+}
+#articleContentArea{
+	background : #26282F;
+	color : white;
+	margin-top : 10px;
+	padding : 20px;
+	text-align : center;
+}
+#emptyArea{
+	margin : auto;
+	width : 500px;
+	text-align : center;
+}
+#commandCell{
+	text-align : center;
+}
+#commandList{
+	margin : auto;
+	width : 500px;
+	text-align : center;
+}
+#pageList{
+	margin : auto;
+	width : 500px;
+	text-align : center;
+}
+#BOARD_CONTENT{
+	width : 300px;
+	height : 200px;	
+	background : #26282F;
+	color : white;
+	border : 0;
+}
